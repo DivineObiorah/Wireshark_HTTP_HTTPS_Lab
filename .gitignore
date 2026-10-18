@@ -1,0 +1,27 @@
+# Packet captures: keep private (see 04-pcap-analysis/README.md)
+*.pcap
+*.pcapng
+*.cap
+
+# Keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Wireshark/TLS secrets
+sslkeylog*
+*.keylog
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
